@@ -1,0 +1,6 @@
+---
+- name: start installing homebrew cask applications
+  homebrew:
+    name: "{{item}}"
+    state: latest
+  with_items: "{{gui_tools_applications}}"

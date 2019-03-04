@@ -8,11 +8,15 @@
       include_role:
         name: homebrew-install
     
-    - name: Install Web Browsers
-      include_role:
-        name: webbrowser-install
+#    - name: Install Web Browsers
+#      include_role:
+#        name: webbrowser-install
     
     - name: Install Text Editors
       include_role:
         name: text-editor-install
+    
+    - name: Installing Commandline and GUI Tools
+      include_role:
+        name: tools-install
 

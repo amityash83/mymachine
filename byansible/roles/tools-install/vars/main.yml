@@ -1,0 +1,14 @@
+
+tools_list:
+  - curl
+  - wget
+  - tree
+  - zsh
+  - packer
+  - terraform
+
+gui_tools_applications:
+  - docker
+  - slack
+  - virtualbox
+
