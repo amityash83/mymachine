@@ -1,4 +1,7 @@
 # My Machine
+[![Build Status](https://travis-ci.org/amityash83/mymachine.svg?branch=master)](https://travis-ci.org/amityash83/mymachine)
+
+
 My Machine setups
 
 This is a [Ansible](https://www.ansible.com/) playbook to quickly setup my Mac
