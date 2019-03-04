@@ -2,3 +2,4 @@
   homebrew:
     name: vim 
     state: latest
+  when: ansible_os_family == 'Darwin'
