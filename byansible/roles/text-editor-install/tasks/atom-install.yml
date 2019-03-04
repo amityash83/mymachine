@@ -1,0 +1,4 @@
+- name: install Atom Text editor with HomeBrew Cask
+  homebrew_cask:
+    name: atom
+    state: installed
