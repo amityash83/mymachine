@@ -4,3 +4,4 @@
     name: "{{item}}"
     state: latest
   with_items: "{{gui_tools_applications}}"
+  when: ansible_os_family == 'Darwin'
