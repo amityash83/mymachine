@@ -7,8 +7,10 @@
   shell: 'yes | /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"' 
   args:
     creates: /usr/local/bin/brew
+  when: ansible_os_family == 'Darwin'
 
 - name: ensure homebrew is updated 
   homebrew:
     state: latest
     update_homebrew: yes
+  when: ansible_os_family == 'Darwin'
