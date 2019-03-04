@@ -7,4 +7,8 @@
     - name: Run Homebrew & Cask install script
       include_role:
         name: homebrew-install
+    
+    - name: Install Web Browsers
+      include_role:
+        name: webbrowser-install
 
