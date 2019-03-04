@@ -8,7 +8,7 @@ tools_list:
   - terraform
 
 gui_tools_applications:
-  - docker
-  - slack
-  - virtualbox
+  # - docker
+  # - slack
+  # - virtualbox
 
