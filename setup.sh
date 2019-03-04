@@ -41,7 +41,7 @@ rm -Rfv /tmp/$installdir
 
 
 # Install Xcode, on macOS, you can't dev without Xcode
-xcode-select --install
+# xcode-select --install
 
 # Install HomeBrew, a tool to install CLI tools without copy/paste
 # /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
