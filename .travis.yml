@@ -22,4 +22,4 @@ install:
   - "ansible-playbook byansible/playbooks/main.yml --syntax-check"
 
   # Test the playbook.
-  - "travis_wait 30 ansible-playbook -i byansible/hosts byansible/playbooks/main.yml" -vvv
+  - "travis_wait 30 ansible-playbook -i byansible/hosts byansible/playbooks/main.yml -vvv"
