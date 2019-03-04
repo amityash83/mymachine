@@ -20,3 +20,9 @@ If you want to undo all the changes that `setupmac` did, run
 setup.sh uninstall
 ```
 
+*See also*:
+  - [osxc](https://github.com/spencergibb/ansible-osx)
+  - [using-ansible-to-automate-my-macbook-setup](https://daemonza.github.io/2017/03/06/using-ansible-to-automate-my-macbook-setup/
+  )
+  - [setupmac](https://github.com/daemonza/setupmac)
+  
