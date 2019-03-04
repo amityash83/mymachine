@@ -1,4 +1,4 @@
-# mymachine
+# My Machine
 My Machine setups
 
 This is a [Ansible](https://www.ansible.com/) playbook to quickly setup my Mac
